@@ -15,10 +15,19 @@ sua batch size tu 32 xuong 8 , sau 8000 steps total loss khong kha quan lam
 
 ## Phuong phap 2: Su dung [YOLO](https://pjreddie.com/darknet/yolo/)
 
-Em lam theo huong dan tu folk darknet cua [AlexeyAB/darknet](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects)
+Em lam theo huong dan tu trang chu [Darknet/Yolo](https://pjreddie.com/darknet/yolo/)
 
 ### Cac buoc thuc hien
 1. Build darknet theo huong dan https://pjreddie.com/darknet/ ( De option GPU =1 ,CUDA =1 va CUDNN =1 trong Makefile)
  - Luu y : trong file Makefile, sua Arch dung voi card su dung theo [link](http://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/)
 
-
+2. clone git nay, copy folder stopsign vao darknet/
+3. Download pretrained weight cua conv layer vao darknet/
+```
+wget https://pjreddie.com/media/files/darknet19_448.conv.23
+```
+4. 
+```
+./darknet detector train stopsgin/stopsign.data stopsign/tiny-yolo-stopsign.cfg darknet19_448.conv.23
+```
+ ### Training

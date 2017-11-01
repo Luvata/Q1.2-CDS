@@ -30,4 +30,5 @@ wget https://pjreddie.com/media/files/darknet19_448.conv.23
 ```
 ./darknet detector train stopsgin/stopsign.data stopsign/tiny-yolo-stopsign.cfg darknet19_448.conv.23
 ```
- ### Training
+
+ ### Training : debugging

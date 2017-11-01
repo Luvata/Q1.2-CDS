@@ -11,6 +11,11 @@ Do kha nang xu ly cua laptop co han nen em thu train model chi voi 1 class la No
 sua batch size tu 32 xuong 8 , sau 8000 steps total loss khong kha quan lam 
 ![training loss](https://github.com/Luvata/Q1.2-CDS/blob/master/loss.jpg)
 
+### (Update) Export va chay thu graph sau 15k training step (batch 8)
+![result3](https://github.com/Luvata/Q1.B-CDS/blob/master/result3.png)
+![result4](https://github.com/Luvata/Q1.B-CDS/blob/master/result4.png)
+
+
 30/10 em co muon laptop de train, nhung tensorflow update moi co conflict [issue#2652](https://github.com/tensorflow/models/issues/2652)
 
 ## Phuong phap 2: Su dung [YOLO](https://pjreddie.com/darknet/yolo/)

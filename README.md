@@ -14,6 +14,7 @@ sua batch size tu 32 xuong 8 , sau 8000 steps total loss khong kha quan lam
 30/10 em co muon laptop de train, nhung tensorflow update moi co conflict [issue#2652](https://github.com/tensorflow/models/issues/2652)
 
 ### (Update) Export va chay thu graph sau 15k training step (batch 8)
+Do model chi train voi 1 class la No-entry, nen khi test voi 1 sign tuong tu nhu stopsign model se hieu nham
 ![result3](https://github.com/Luvata/Q1.B-CDS/blob/master/result3.png)
 ![result4](https://github.com/Luvata/Q1.B-CDS/blob/master/result4.png)
 
